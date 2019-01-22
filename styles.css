@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: optimus;
+    src: url(fonts/OptimusPrinceps.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+#title {
+    font-family: optimus;
+    font-size: 50pt;
+    color: white;
+}
+
+div.description {
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+div.description p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13pt;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: none;
+}
+
+div.options button {
+    background-color: #202020;
+    border: 0px solid white;
+    padding: 0px;
+    color: white; 
+    font-size: 10pt;
+    cursor: pointer; 
+    height: 40px;
+    width: 86%; 
+    display: block; /* Make the buttons appear below each other */
+  }
+  
+  div.options button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  div.options button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  div.options button:active {
+    background-color: lightgray;
+    color: black;
+    font-size: 11pt;
+  }
+  
+  div.options div.spacer {
+      height: 10px;
+      width: auto;
+      display: block;
+  }
