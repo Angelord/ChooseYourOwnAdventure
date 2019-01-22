@@ -1,5 +1,3 @@
-
-var STORY_FILE = "story.xml";
 var DESCR_GROUP_ID = "descr_group";
 var OPTION_GROUP_ID = "option_group";
 
